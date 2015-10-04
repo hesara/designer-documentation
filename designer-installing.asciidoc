@@ -1,0 +1,73 @@
+---
+title: Installation
+order: 2
+layout: page
+---
+
+[[designer.installing]]
+= Installation
+
+[[designer.installing.eclipse]]
+== Installing Eclipse and Plug-Ins
+
+You need to install the following to use Vaadin Designer:
+
+. Eclipse Luna SR2+ as described in
+<<dummy/../../framework/getting-started/getting-started-environment#getting-started.environment.eclipse,"Installing
+Eclipse IDE">>
+
+. Vaadin Plug-in for Eclipse as described in
+<<dummy/../../framework/getting-started/getting-started-eclipse#getting-started.eclipse,"Vaadin
+Plugin for Eclipse">>
+
+. Vaadin Designer from link:http://vaadin.com/eclipse[vaadin.com/eclipse]
+
+
+Vaadin Designer is compatible with Eclipse Luna (and later) available from
+link:http://www.eclipse.org/downloads[www.eclipse.org/downloads]. We recommend
+choosing __Eclipse IDE for Java EE Developers__.
+
+If you're using an existing install of Eclipse Luna, please make sure it is
+up-to-date. Eclipse Luna versions prior to the SR2 version had a nasty bug that
+will cause problems for several plug-ins.
+
+Vaadin Designer is installed together with the Vaadin Plug-in for Eclipse, from
+the same Eclipse update-site. In Eclipse, do "Help > Install New Software",
+press [guibutton]#Add...# next to the [guilabel]#Work with select#, enter
+[literal]#++Vaadin++# as name and [uri]#http://vaadin.com/eclipse# as location.
+
+If you already have the Vaadin plug-in installed, just choose to Work with the
+Vaadin update site. Make sure the whole Vaadin category is selected (or at least
+Vaadin Designer), then click [guibutton]#Next# to review licensing information
+and finalize the install. Please restart Eclipse when prompted.
+
+Once installed, Vaadin Designer can be kept up-to-date by periodically running
+"Help > Check for Updates".
+
+
+[[designer.installing.license]]
+== License
+
+The first time you start the Vaadin Designer, it will ask for a license key. You
+can obtain a free trial-license, purchase a stand-alone perpetual license, or
+use the license included with your Pro Tools subscription. See
+<<dummy/../../framework/addons/addons-cval#addons.cval,"Installing Commercial
+Vaadin Add-on Licence">> for instructions for installing the license.
+
+Please note that a separate license key is required for each developer. If you
+choose not input any license (even trial), you will be unable to save your work.
+
+If you for any reason need to remove or change a valid license, it is located in
+[filename]#~/.vaadin.designer.developer.license#.
+
+
+[[designer.installing.uninstalling]]
+== Uninstalling
+
+If you want to remove Vaadin Designer from your Eclipse installation, go to
+"Help > Installation Details", select [guilabel]#Vaadin Designer# from the list,
+then click [guibutton]#Uninstall#.
+
+
+
+
