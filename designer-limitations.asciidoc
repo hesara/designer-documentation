@@ -12,7 +12,7 @@ Vaadin Designer 1.0 has limitations that we hope to address as soon as possible.
 * Multi-select
 * Designs cannot be nested
 * Custom components and add-ons are rendered as place-holders
-* Custom widget-sets are not used
+* Custom widget sets are not used
 * Data components, such as Table and Grid, all get the same dummy content
 * You cannot dynamically enter real or mock data
 * Advanced components, which cannot be properly configured with simple properties, are lacking features
