@@ -10,14 +10,14 @@ layout: page
 Vaadin Designer 1.0 has limitations that we hope to address as soon as possible.
 
 * Multi-select
-* Designs can not be nested
+* Designs cannot be nested
 * Custom components and add-ons are rendered as place-holders
 * Custom widget-sets are not used
 * Data components, such as Table and Grid, all get the same dummy content
-* You can not dynamically enter real or mock data
-* Advanced components, which can not be properly configured with simple properties, are lacking features
+* You cannot dynamically enter real or mock data
+* Advanced components, which cannot be properly configured with simple properties, are lacking features
 * Component-specific edit mode is missing
-* GridLayout column and rowspan can not be adjusted
+* GridLayout column and rowspan cannot be adjusted
 * There is no fluid/relative grid for responsive design
 * No easy way to swap a layout, keeping content (can be done in code)
 
